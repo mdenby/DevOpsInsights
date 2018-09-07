@@ -2,7 +2,7 @@
 
 copyright:
   years: 2016, 2018
-lastupdated: "2018-3-28"
+lastupdated: "2018-09-07"
 
 ---
 
@@ -24,28 +24,25 @@ You define policies in {{site.data.keyword.DRA_short}}. Policies are created in 
 
 To create a policy:
 
-1. From the {{site.data.keyword.DRA_short}} navigation menu, click **Settings**.
+1. From the {{site.data.keyword.DRA_short}} navigation menu, click **Policies**.
 
-2. Click **Policies**.
+2. Click **Create Policy** and then type a name and description for the new policy.
 
-3. Click **Create Policy** and then type a name and description for the new policy.
-
-4. Click **Next**.
+4. Click **Create Rule**.
 
 4. Add at least one rule to the policy:
-  1. Click **Add Rule to Policy**.
-  2. Select the rule type.
-  3. Enter details and conditions for the rule.
-  4. Click **Save**.
+  1. Select the rule type.
+  2. Enter details and conditions for the rule.
+  3. Click **Save**.
 
-5. When you're finished adding rules to the policy, click **Complete**.
+5. When you're finished adding rules to the policy, click **Save**.
 
 ## Creating rules
 {: #creating_rules}
 
 Rules define the criteria that your policies use to judge success or failure. You might create an "Unit Testing and Test Coverage" policy that contains a unit test rule that requires 80 percent unit test success and a test coverage rule that requires 100 percent code coverage. If you add a gate that refers to this rule in a pipeline, the gate prevents any builds that don't satisfy both of the rules from proceeding. 
 
-You can require success no matter what by marking tests as critical. To create a rule, select a policy and then click **Add Rule to Policy**. 
+You can require success no matter what by marking tests as critical. To create a rule, select a policy and then click **Create Rule**. 
 
 ### Creating functional verification test rules
 {: #criteria_fvt}
@@ -142,4 +139,3 @@ You can see the full titles of all of the tests in the logs after a run.
 
 **Notes:**
 * {{site.data.keyword.DRA_short}} does not support critical tests that contain a hyphen in the full title.    
-* If you change your organization name, you must re-create the policies that were associated with the previous name. You will lose access to any decision reports that were generated before the name change.
