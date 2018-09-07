@@ -12,7 +12,7 @@ lastupdated: "2018-3-28"
 {:codeblock: .codeblock}
 {:pre: .pre}
 
-# About Developer Insights
+# About Code (Beta)
 {: #gettingstarted}
 
 {{site.data.keyword.DRA_full}} Developer Insights provides a comprehensive way to explore your project’s development risk. You can identify files with high error proneness and get a compliance view of the project against DevOps practices.
