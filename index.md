@@ -14,7 +14,7 @@ lastupdated: "2018-8-16"
 {:tip: .tip}
 {:download: .download}
 
-# Getting started tutorial (Beta)
+# Getting started tutorial
 {: #gettingstarted}
 
 {{site.data.keyword.DRA_full}} applies developer, team, and deployment analytics to your busiest DevOps projects. Use it to learn how compliant your team is with DevOps and developer practices, to manage risk in your codebase, and to automatically enforce quality standards in continuous delivery projects. 
