@@ -12,7 +12,7 @@ lastupdated: "2017-04-07"
 {:codeblock: .codeblock}
 {:pre: .pre}
 
-# About Team
+# About Team (Beta)
 
 {{site.data.keyword.DRA_full}} Team employs social coding analysis to identify the level of interaction between team members so that the team can fix unproductive practices.
 {:shortdesc}
